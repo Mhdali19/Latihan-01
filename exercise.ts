@@ -11,8 +11,8 @@ console.log(`Luas Persegi Panjang Adalah ${areaRectangle}`);
 // Menghitung Keliling Persegi Panjang 
 // Rumus = 2 * (panjang + lebar)
 
-let panjangForKeliling = 2; 
-let lebarForKeliling = 4; 
+let panjangForKeliling = 3; 
+let lebarForKeliling = 5; 
 let perimeterRectangle = 2 * (panjangForKeliling + lebarForKeliling);
 console.log(`Keliling Persegi Panjang Adalah ${perimeterRectangle}`); 
 
@@ -37,9 +37,9 @@ console.log(`
 // Menghitung angleofTriangle
 // Rumus = angleofTriangle = 180 - (a +  b)
 
-let a = 80; 
-let b = 65; 
-let angleOfTriangle = 180 - (a + b); 
+let as = 80; 
+let ba = 65; 
+let angleOfTriangle = 180 - (as + ba); 
 console.log(angleOfTriangle); 
 
 // Soal 5 
@@ -75,4 +75,6 @@ const timeDifference: number = date1.getTime() - date2.getTime();
 const dayDifference: number = timeDifference / (1000 * 60 * 60 * 24);
 
 console.log(dayDifference); 
+
+
  
